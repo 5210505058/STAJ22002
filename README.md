@@ -1,16 +1,49 @@
-# kahve_sepeti
+# Kahve Sepeti
 
-A new Flutter project.
+Kahve Sepeti, Flutter ile geliştirilmiş bir mobil kahve sipariş uygulamasıdır.  
+Kullanıcılar uygulama üzerinden kahve çeşitlerini görüntüleyebilir, özelleştirebilir ve sipariş verebilir.
 
-## Getting Started
+## Özellikler
+- Kahve Seçenekleri: Latte, Americano, Filtre Kahve ve daha fazlası
+- Süt Tercihi: Normal, Laktozsuz, Badem, Yulaf sütü
+- Ekstralar: Şurup, Çikolata, Krema vb. ek malzemeler
+- Puan Sistemi: Siparişlerden puan kazan, seviye atla (Bronz → Gümüş → Altın → Platin → Elmas)
+- Sipariş Geçmişi: Verilen siparişlerin geçmişi görüntülenebilir
+- QR Kod: İşletmelerin QR kodlarını okutarak puan veya kampanya kazanma
 
-This project is a starting point for a Flutter application.
+## Proje Yapısı
+```
+kahve_sepeti/
+├── lib/            # Ana uygulama kodları (Flutter)
+├── android/        # Android yapı dosyaları
+├── ios/            # iOS yapı dosyaları
+├── assets/         # Görseller, ikonlar, kahve resimleri
+├── pubspec.yaml    # Proje bağımlılıkları
+└── README.md       # Proje tanıtım dosyası
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Kurulum
+Projenin çalışması için Flutter ve Dart kurulu olmalıdır.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Bu projeyi klonlayın:
+   ```bash
+   git clone https://github.com/KULLANICI_ADIN/kahve_sepeti.git
+   ```
+2. Bağımlılıkları indirin:
+   ```bash
+   flutter pub get
+   ```
+3. Uygulamayı çalıştırın:
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ekran Görüntüleri (Opsiyonel)
+Buraya uygulamanın ekran görüntülerini ekleyebilirsiniz.
+
+## Geliştirici
+- Arda Işık  
+- Flutter & Dart ile geliştirilmiştir.
+
+## Lisans
+Bu proje açık kaynaklıdır. Dilediğiniz gibi kullanabilir, geliştirebilirsiniz.
